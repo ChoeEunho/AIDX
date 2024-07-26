@@ -1,0 +1,106 @@
+7월 25일 파이션 
+
+dx@SmartPC16:~/python$ - 새로운청
+
+원의 면적 구하기 
+#원의 면접 = pi * r * r
+radius =int(input("반지름 입력 : "))
+area = 3.14 * radius * radius
+print("원의 면적은 =",(area))
+
+삼각형 면적 구하기 
+#삼각형의 면적 = 0.5 * base * height
+base =int(input("밑변 입력 : "))
+height = int(input("높이 입력 : "))
+area = base * height * 0.5
+print("밑변 = {}, 높이 = {}, 면적 = {}, ". format(base, height,area))
+print("밑변 =", base, "높이 =",height, "면적 =",area)
+
+사격형의 면적 구하기 
+base =int(input("밑변 입력 : "))
+height = int(input("높이 입력 : "))
+area = base * height
+print("밑변 = {}, 높이 = {}, 면적 = {}, ". format(base, height,area))
+print("밑변 =", base, "높이 =",height, "면적 =",area)
+
+
+값은 a,b,c 는 0,1,2 이런식이다. 그래서 괄호에 각자의 값을 주면 주어진 숫자가 출력된다 
+
+a = 10      
+b = 20
+c = 30
+print (a, b)
+print("a=", a, "b=", b) #문자열과 변수 출력
+print ("a = {}, b = {}".format(a,b))
+print ("b = {} ,a  ={}".format(b,a))
+print ( "c = {2}, a = {0}, b = {1}".format(a,b,c))
+print("a = %d, b = %d"%(a, b))
+print("a = %x, b = %X"%(a, b)) 
+
+나오는 값
+10 20
+a= 10 b= 20
+a = 10, b = 20
+b = 20 ,a  =10
+c = 30, a = 20, b = 30
+a = 10, b = 20
+a = a, b = 14
+
+다른 예시 
+a = 18.123456
+b = 20.123456
+c = 30.123456
+print (a, b)
+print("a=", a, "b=", b) #문자열과 변수 출력
+print ("a = {}, b = {}".format(a,b))
+print ("b = {} ,a  ={}".format(b,a))
+print ( "c = {2}, a = {1}, b = {2}".format(a,b,c))
+print("a = %d, b = %d"%(a, b))
+print("a = %.1f, b = %.2f"%(a, b))
+#print("a = %x, b = %X"%(a, b))
+
+나오는 값
+18.123456 20.123456
+a= 18.123456 b= 20.123456
+a = 18.123456, b = 20.123456
+b = 20.123456 ,a  =18.123456
+c = 30.123456, a = 20.123456, b = 30.123456
+a = 18, b = 20
+a = 18.1, b = 20.12
+
+print("hello pythoy", end = "")
+print("word!!")
+print("New line")     end 란 줄을 안바구고 싶을때 씀 
+
+나오는 값 
+hello pythoyword!!
+New line 
+ 
+print("hello pythoy", end = "123456")
+print("word!!")
+print("New line")
+나오는 값
+ hello pythoy123456word!!
+New line
+
+두 수 교환하기
+x = input("x = ")
+y = input("y = ")
+
+print("x = {}, y = {}".format(x, y))
+
+t=x
+x=y
+x=t
+
+print("x = {}, y = {}".format(x, y))
+
+z, y = y,x
+
+print("x = {}, y = {}".format(x, y))
+
+
+GIT - 프로젝트 관리용 
+
+
+CRUD 작업이 기본적으로 유지되어댜된다. 
