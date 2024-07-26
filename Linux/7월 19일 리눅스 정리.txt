@@ -1,0 +1,42 @@
+리눅스에서 모든 것은 파일이다- 인식
+파일은 바이트의 연속이다 
+ls - 파일을 보는 명령어 
+
+bit- nibble - byte - word - field - record - file - database
+
+binary digit 
+binary term    
+
+
+.  = 자기자신
+.. = 부모
+~ = 홈 디렉토리
+/ = 루트 디렉토리 
+멈추는거 = 컨트롤 + c
+지우는거 = rm -r , rm -rf
+
+sudo apt update - 버전 업
+sudo apt upgrade 
+sudo apt install tree
+sudo apt install gedit
+tree - 파일 구조 보는것 
+mkdir os - os 밑에 만드는것 
+
+EOF(End OF File) = ^D          윈도우에서는  ^Z
+CLi = command line 
+GUi 
+
+파일 생성 명령어 - touch , cat, nano , vi , touch abc , cat > abc  와 ^D, nano abc , vi abc
+
+교육 사이트 step , 저장사이트 githb
+
+date, cal, clear, history, logname, users, who, whoami, uname, arch, env, echo, whichls  
+
+ls
+touch 0719
+ls 
+경성대 소프트웨어학과 초빙교수 
+김주현 010-2519-0935 
+isadora@naver.com 
+texttospeech imtrans
+ 
