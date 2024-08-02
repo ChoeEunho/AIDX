@@ -1,0 +1,6 @@
+datys=10
+guest="name"
+echo "$guest checked in $days age"
+days=5
+guest="jes"
+echo "guest checked in $days age"
