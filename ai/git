@@ -1,1 +1,9 @@
-#git log --oneline 
+#git log --oneline 과거 로그 보기
+#기본 c언어 로그 
+
+iniclude <stdio>
+
+int main() {
+        printf("hello KCCI")
+        return 0;       
+}
